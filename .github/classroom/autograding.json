@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "CalculaGrado",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/02CalculaGrado",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "AreaPrismaRectangular",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/06AreaPrismaRectangular",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "VolumenPrismaRectangular",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/07VolumenPrismaRectangular",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "AreaRectangulo",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/09AreaRectangulo",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    }
+  ]
+}
