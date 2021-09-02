@@ -2,14 +2,14 @@ def calcula_grado(grado):
     if grado < 0.0 or grado > 1.0:
         nota = "score incorrecto"
     elif grado > 0.9:
-        nota = "A"
+        return "A"
     elif grado > 0.8:
-        nota = "B"
+        return "B"
     elif grado > 0.7:
-        nota = "C"
+        return "C"
     elif grado > 0.6:
-        nota = "D"
-    else:
+        return "D"
+    else: 
         nota = "F"
     return nota
 
@@ -17,7 +17,13 @@ def calcula_grado(grado):
 def main():
     #escribe tu código abajo de esta línea
     x = float(input("Ingresa Un valor entre 0.0 y 1.0: "))
-    print(calcula_grado(x))
+    y = calcula_grado(x)
+    print(y)
+
+main()
+    
+
 
 if __name__=='__main__':
     main()
+
